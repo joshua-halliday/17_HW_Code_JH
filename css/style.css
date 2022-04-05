@@ -1,0 +1,42 @@
+/* Nav bar CSS */
+.navigation {
+    background-color: #2F4A75;
+    width: 100%;
+    display: flex;
+}
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+.logo {
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+    justify-content: flex-start;
+}
+
+nav {
+    width: 73%;
+    padding: 1%;
+    justify-content: end;
+}
+ul {
+    width: 50%;
+    margin-left: auto;
+}
+
+/* Hero section */
+.heroImg {
+    height: 600px;
+    padding: 25px;
+}
+.content {
+    width: 500px;
+    margin: 0 auto;
+}
+
+/* Footer */
+footer {
+    background-color: #2F4A75;
+    display: grid;
+}
