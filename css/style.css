@@ -1,34 +1,65 @@
 /* Nav bar CSS */
 .navigation {
     background-color: #2F4A75;
+    position: absolute;
     width: 100%;
-    display: flex;
+    height: 131px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    
 }
 .inline-block {
     display: inline-block;
     vertical-align: top;
 }
-.logo {
-    width: 23%;
-    padding: 1%;
-    text-align: center;
-    justify-content: flex-start;
+.headerImage {
+    position: absolute;
+    width: 399px;
+    height: 171px;
+    left: 78px;
+    top: -20px;
+ 
+}
+.navLinks {
+    display: inline-block;
+   align-items: center;
+   justify-content: center;
+    padding: 25px;
+}
+.flexNav {
+    width: 100%;
+    padding: 0;
+    justify-content: center;
+    align-content: center;
 }
 
-nav {
-    width: 73%;
-    padding: 1%;
-    justify-content: end;
+#navButtons {
+    align-items: center ;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 131px;
+    padding:0px;
 }
 ul {
     width: 50%;
     margin-left: auto;
+    display: inline-block;
+    justify-content: end;
 }
 
 /* Hero section */
 .heroImg {
     height: 600px;
     padding: 25px;
+}
+.heroImg img {
+    position: absolute;
+width: 625px;
+height: 601px;
+left: 815px;
+top: 211px;
 }
 .content {
     width: 500px;
