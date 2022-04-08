@@ -40,7 +40,7 @@ h4 {
 font-weight: 400;
 font-size: 24px;
 line-height: 30px;
-
+margin: 0px;
 color: #000000;
 }
 h5 {
@@ -122,10 +122,13 @@ color: #000000;
    align-items: center;
    justify-content: center;
     padding: 20px;
-    padding-top: 56.25px;
-    padding-bottom: 56.25px;
+    padding-top: 50.5px;
+    padding-bottom: 50.5px;
     width: auto;
     
+}
+.navLinks h4 {
+    color: white;
 }
 .contact {
     padding-right:100px;
@@ -217,5 +220,81 @@ top: 594px;
 /* Footer */
 footer {
     background-color: #2F4A75;
-    display: none;
+    display: flex;
+    
+    position: absolute;
+    top: 897px;
+    height: 271px;
+    left: 0px;
+    right: 0px;
+
+}
+
+#yellowLogo {
+    position: absolute;
+left: 5.42%;
+right: 66.88%;
+top: 0%;
+bottom: 36.9%;
+width: 399px;
+height: 171px;
+
+}
+
+footer h6 {
+    color: white;
+    margin: 0px;
+}
+footer h5 {
+    color: white;
+    margin: 0px;
+}
+
+#contJh {
+    position: absolute;
+    width: 640px;
+    height: 25px;
+    left: 6.94%;
+    bottom: 64px;
+}
+
+#touch {
+    position: absolute;
+width: 130px;
+height: 27px;
+right: 370px;
+bottom: 189px;
+}
+
+.contactLink img {
+    width: 44px;
+}
+
+.liLink {
+    position: absolute;
+width: 278px;
+height: 25px;
+right: 129px;
+bottom: 128px;
+}
+.liEmail {
+    position: absolute;
+width: 250px;
+height: 25px;
+right: 157px;
+bottom: 64px;
+}
+#iconL {
+    position: absolute;
+width: 44px;
+height: 44px;
+right: 427px;
+bottom: 118px;
+}
+#mailL {
+position: absolute;
+
+right: 427px;
+
+bottom: 54px;
 }
